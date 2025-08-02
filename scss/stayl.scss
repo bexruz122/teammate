@@ -29,4 +29,13 @@ header {
     }
 
   }
+  .text{
+    width:1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+      color: white;
+    }
+  } 
 }
