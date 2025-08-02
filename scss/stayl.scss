@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgba(1, 78, 86, 1);
+  .nav {
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    .nav-branch{
+      display: flex;
+      align-items: center;
+      gap: 80px;
+      .nav-menu{
+        display: flex;
+        gap: 40px;
+        li{
+          list-style: none;
+          a{
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+
+  }
+}
